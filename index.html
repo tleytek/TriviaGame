@@ -15,22 +15,198 @@
     <title>Trivia Game</title>
 </head>
 
-<body>
+<body background="assets/images/quiz.jpg" style="height: 100%; margin: 0; padding: 1em;">
     <div class="row justify-content-center">
 
-        <div class="col-8 content-background" align="center">
+        <div class="col-8 content-background border" align="center">
 
-            <h1 id="title">Medical Trivia
+            <h1 id="title">Useless Knowledge Quiz!
             </h1>
 
 
-            <button id="start">Start</button>
+            <button id="startButton" class="btn btn-dark">Start</button>
 
 
             <div id="main">
-                <h1 id="timer">Time Remaining: </h1>
+                <h1 id="timer">Time Remaining: 70</h1>
                 </br>
 
+                <!-- Question 1 -->
+                <div class="question">
+                    <h1>Corn was first domesticated 10,000 years ago by indigenous people in which country?</h1>
+
+                    <!-- Question 1 Answers -->
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question1" name="q1a1" value="incorrect">
+                        <label class="form-check-label" for="q1a1">Argentina</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question1" name="q1a2" value="correct">
+                        <label class="form-check-label" for="q1a2">Mexico</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question1" name="q1a3" value="incorrect">
+                        <label class="form-check-label" for="q1a3">Kenya</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question1" name="q1a4" value="incorrect">
+                        <label class="form-check-label" for="q1a4">Brazil</label>
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="question">
+                    <!-- Question 2 -->
+                    <h1>Which of these Englishmen runs a restaurant?</h1>
+
+                    <!-- Question 2 Answers -->
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question2" name="q2a1" value="correct">
+                        <label class="form-check-label" for="q2a1">Marco Pierre White</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question2" name="q2a2" value="incorrect">
+                        <label class="form-check-label" for="q2a2">Robbie Williams</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question2" name="q2a3" value="incorrect">
+                        <label class="form-check-label" for="q2a3">David Beckham</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question2" name="q2a4" value="incorrect">
+                        <label class="form-check-label" for="q2a4">Tony Blair</label>
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="question">
+                    <!-- Question 3 -->
+                    <h1>Which country declared itself to be independent from Great Britain on 2 July 1776?</h1>
+
+                    <!-- Question 3 Answers -->
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question3" name="q3a1" value="incorrect">
+                        <label class="form-check-label" for="q3a1">Australia</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question3" name="q3a2" value="incorrect">
+                        <label class="form-check-label" for="q3a2">Canada</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question3" name="q3a3" value="correct">
+                        <label class="form-check-label" for="q3a3">USA</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question3" name="q3a4" value="incorrect">
+                        <label class="form-check-label" for="q3a4">India</label>
+                    </div>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="question">
+                    <!-- Question 4 -->
+                    <h1>What shape is a horseshoe crab's heart?</h1>
+
+                    <!-- Question 4 Answers -->
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question4" name="q4a1" value="incorrect">
+                        <label class="form-check-label" for="q4a1">Pear-Shaped</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question4" name="q4a2" value="correct">
+                        <label class="form-check-label" for="q4a2">A long narrow tube</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question4" name="q4a3" value="incorrect">
+                        <label class="form-check-label" for="q4a3">Three lobed</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question4" name="q4a4" value="incorrect">
+                        <label class="form-check-label" for="q4a4">Similar to a mammal's</label>
+                    </div>
+                </div>
+
+                <!-- Question 5 -->
+                <div class="question">
+                    <!-- Question 5 -->
+                    <h1>What is the ratio of hydrogen atoms to oxygen atoms respectively in a molecule of water?</h1>
+
+                    <!-- Question 5 Answers -->
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question5" name="q5a1" value="incorrect">
+                        <label class="form-check-label" for="q5a1">8 to 1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question5" name="q5a2" value="incorrect">
+                        <label class="form-check-label" for="q5a2">1 to 2</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question5" name="q5a3" value="incorrect">
+                        <label class="form-check-label" for="q5a3">3 to 5</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question5" name="q5a4" value="correct">
+                        <label class="form-check-label" for="q5a4">2 to 1</label>
+                    </div>
+                </div>
+
+                <!-- Question 6 -->
+                <div class="question">
+                    <!-- Question 6 -->
+                    <h1>Which of these sports was not part of the Classic pentathlon contested in Olympic Games from 1906 to
+                        1924?
+                    </h1>
+
+                    <!-- Question 6 Answers -->
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question6" name="q6a1" value="correct">
+                        <label class="form-check-label" for="q6a1">Hammer throw</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question6" name="q6a2" value="incorrect">
+                        <label class="form-check-label" for="q6a2">Javelin throw</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question6" name="q6a3" value="incorrect">
+                        <label class="form-check-label" for="q6a3">Discus throw</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question6" name="q6a4" value="incorrect">
+                        <label class="form-check-label" for="q6a4">Long jump</label>
+                    </div>
+                </div>
+
+                <!-- Question 7 -->
+                <div class="question">
+                    <!-- Question 7 -->
+                    <h1>How does the World Health Organisation (WHO) define health?</h1>
+
+                    <!-- Question 7 Answers -->
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question7" name="q7a1" value="incorrect">
+                        <label class="form-check-label" for="q7a1">The absence of disease or infirmity</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question7" name="q7a2" value="incorrect">
+                        <label class="form-check-label" for="q7a2">A state of physical well-being</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question7" name="q7a3" value="correct">
+                        <label class="form-check-label" for="q7a3">A state of complete physical, mental and social well-being</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="question7" name="q7a4" value="incorrect">
+                        <label class="form-check-label" for="q7a4">The absence of disease</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="results">
+                <h1 id="correctAnswer"></h1>
+                <h1 id="incorrectAnswer"></h1>
+                <h1 id="unAnswered"></h1>
             </div>
 
 

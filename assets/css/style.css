@@ -1,19 +1,28 @@
 .content-background {
-  background-color: blue;
+  background-color: #140139;
   margin-top: 80px;
+  border-radius: 50px;
+}
+
+label {
+  font-size: 16px;
+  font-style: normal;
 }
 
 * {
   font-family: "Source Sans Pro", sans-serif;
+  color: white;
 }
 
 #title {
   font-size: 80px;
+  font-weight: bold;
   margin: 20px;
+  word-wrap: break-word;
 }
 
-#StartButton {
-  font-size: 36px;
+#startButton {
+  font-size: 48px;
   width: 200px;
   height: 100px;
   margin: 20px;
@@ -21,4 +30,9 @@
 
 #main {
   display: none;
+}
+
+.question {
+  font-style: italic;
+  margin: 40px 0px;
 }
