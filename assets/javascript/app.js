@@ -55,6 +55,7 @@ $(document).ready(function() {
     $("#results").show();
   }
 
+  //decrement function, decreases the time variable by 1 every second.
   function decrement() {
     if (time === 0) {
       score();
@@ -63,10 +64,4 @@ $(document).ready(function() {
       $("#timer").text("Time Remaining: " + time);
     }
   }
-  //count down function
-
-  //When the clockRunning variable is TRUE then run a setInterval to reduce our timer
-  // by 1  every second
-
-  //   When our time has reached 0 then turn off our
 });
