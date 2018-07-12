@@ -2,7 +2,7 @@
 
 https://tleytek.github.io/TriviaGame/
 
-![Website Image](assets/images/webpage-images/website.png)
+![Website Image](assets/images/website.png)
 
 ## Instructions
 
